@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 ul {
     list-style: none;
 }
@@ -19,6 +20,11 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+.col-sm-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #page-loading-blocs-notifaction {
@@ -103,7 +109,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(33, 33, 33);
 }
 
 .d-bloc button:hover {
@@ -364,9 +370,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-.presentation-text {
-    font-size: 30px;
-}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -693,7 +697,7 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #292100!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -780,13 +784,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #1553BC;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #292100!important;
 }
 
 .ltc-white {
@@ -824,6 +828,20 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+.image-resize-mode {
+    width: 100px;
+    height: auto;
+}
+
+footer ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer ul li a {
+    font-size: 16px;
 }
 
 @media (max-width: 1024px) {
