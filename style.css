@@ -317,7 +317,8 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    width: 250px;
+    height: 90px;
 }
 
 .nav-center .navbar-brand img {
@@ -780,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -831,7 +832,7 @@ h4 {
 }
 .image-resize-mode {
     width: 100px;
-    height: auto;
+    height: 100px;
 }
 
 footer ul {
