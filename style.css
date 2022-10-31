@@ -756,6 +756,9 @@ h4 {
 .white {
     color: #1E1E1E!important;
 }
+h2 .white {
+    color: #1E1E1E!important;
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
