@@ -26,6 +26,11 @@ a:hover {
     height: 100%;
     object-fit: cover;
 }
+.col-sm-12 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -514,7 +519,9 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
-
+.form-group {
+    color: #820101;
+}
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -661,7 +668,7 @@ label,
 {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000!important;
+    color: #905940!important;
 }
 
 .container {
@@ -713,6 +720,11 @@ label,
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    color: #1E1E1E
+}
+p {
+    color: #1E1E1E
+
 }
 
 h3 {
@@ -742,7 +754,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #1E1E1E!important;
 }
 
 .portfolio-thumb {
@@ -777,21 +789,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #8c5338;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #002829!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #1553BC;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #134D16!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #292100!important;
+    color: #1E1E1E!important;
 }
 
 .ltc-white {
@@ -833,6 +845,7 @@ h4 {
 .image-resize-mode {
     width: 100px;
     height: 100px;
+    object-fit: cover;
 }
 
 footer ul {
@@ -1031,8 +1044,9 @@ footer ul li a {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
+    .col-sm-6 > label{
         padding: 5px;
+        color:#820101;
     }
     .close-lightbox {
         display: inline-block;
